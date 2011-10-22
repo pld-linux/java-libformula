@@ -7,7 +7,7 @@
 Summary:	Formula Parser
 Name:		java-%{srcname}
 Version:	1.1.3
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries/Java
 Source0:	http://downloads.sourceforge.net/jfreereport/%{srcname}-%{version}.zip
@@ -21,7 +21,7 @@ BuildRequires:	java-libbase >= 1.1.3
 BuildRequires:	jdk
 BuildRequires:	jpackage-utils
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	jakarta-commons-logging
+Requires:	java-commons-logging
 Requires:	java-libbase >= 1.1.3
 Requires:	jpackage-utils
 BuildArch:	noarch
