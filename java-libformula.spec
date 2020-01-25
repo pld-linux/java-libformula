@@ -3,7 +3,6 @@
 %bcond_without	javadoc		# don't build javadoc
 
 %define		srcname		libformula
-%include	/usr/lib/rpm/macros.java
 Summary:	Formula Parser
 Name:		java-%{srcname}
 Version:	1.1.3
