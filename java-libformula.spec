@@ -41,7 +41,7 @@ Javadoc for LibFormula.
 
 %prep
 %setup -qc
-%patch0 -p1
+%patch -P0 -p1
 find -name "*.jar" | xargs rm -v
 install -d lib
 ln -s %{_javadir}/ant lib/ant-contrib
